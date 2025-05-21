@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { AlertTriangle } from "lucide-react"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -125,29 +126,58 @@ export default function Footer() {
         </div>
 
         {/* Responsible Gaming Section */}
-        <div className="border-t border-brand-500/50 pt-8 mb-8">
-          <h4 className="text-center text-lg font-semibold mb-6 text-brand-200">Responsible Gaming Resources</h4>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="flex flex-col items-center bg-brand-700/50 p-4 rounded-lg">
-              <div className="mb-3 bg-white/10 rounded-lg p-2">
-                <span className="text-brand-100 font-medium">GambleAware</span>
-              </div>
-              <span className="text-sm text-brand-200">Free advice and support</span>
-            </div>
 
-            <div className="flex flex-col items-center bg-brand-700/50 p-4 rounded-lg">
-              <div className="mb-3 bg-white/10 rounded-lg p-2">
-                <span className="text-brand-100 font-medium">GamCare</span>
+        <div className="border-t border-gray-200 pt-6">
+          <h3 className="font-bold mb-4 text-center">Responsible Gaming Resources</h3>
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link
+              href="https://www.gambleaware.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-4 bg-amber-50 rounded-lg hover:bg-amber-100 transition-colors flex flex-col items-center"
+            >
+              <div className="relative w-32 h-12 mb-2">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-x4mkXbxGhlgvipaXK4V1MYEkHcisEy.png"
+                  alt="GambleAware Logo"
+                  fill
+                  className="object-contain"
+                />
               </div>
-              <span className="text-sm text-brand-200">Support and counseling</span>
-            </div>
-
-            <div className="flex flex-col items-center bg-brand-700/50 p-4 rounded-lg">
-              <div className="mb-3 bg-white/10 rounded-lg p-2">
-                <span className="text-brand-100 font-medium">Gordon Moody</span>
+              <p className="text-sm text-gray-600">Information and support</p>
+            </Link>
+            <Link
+              href="https://www.gamcare.org.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-4 bg-amber-50 rounded-lg hover:bg-amber-100 transition-colors flex flex-col items-center"
+            >
+              <div className="relative w-32 h-12 mb-2">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DjJ5oJn8abRYrSc5QxejkioQuYcRcv.png"
+                  alt="GamCare Logo"
+                  fill
+                  className="object-contain"
+                />
               </div>
-              <span className="text-sm text-brand-200">Therapy for gambling addiction</span>
-            </div>
+              <p className="text-sm text-gray-600">Support and counseling</p>
+            </Link>
+            <Link
+              href="https://www.gordonmoody.org.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-4 bg-amber-50 rounded-lg hover:bg-amber-100 transition-colors flex flex-col items-center"
+            >
+              <div className="relative w-32 h-12 mb-2">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-kaBvObDvnA4QpDq5zVMc2f6rcRtOy5.png"
+                  alt="Gordon Moody Logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <p className="text-sm text-gray-600">Therapy for gambling addiction</p>
+            </Link>
           </div>
         </div>
 
