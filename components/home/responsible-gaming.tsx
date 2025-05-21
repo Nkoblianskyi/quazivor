@@ -23,8 +23,8 @@ export default function ResponsibleGaming() {
 
           <div className="bg-white p-6 rounded-xl shadow-md mb-8">
             <p className="text-center mb-6 font-medium">
-              Urban Raccoon - це безкоштовна соціальна платформа виключно для розважальних цілей. Без реальних грошей.
-              Без виграшів. Все віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання.
+              Urban Raccoon is a free social platform exclusively for entertainment purposes. No real money. No
+              winnings. Everything is virtual and carries no value. Completely free to use.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">

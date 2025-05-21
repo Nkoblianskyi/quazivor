@@ -4,7 +4,7 @@ export default function StructuredData() {
     "@type": "SoftwareApplication",
     name: "Urban Raccoon Survival",
     description:
-      "Безкоштовна соціальна платформа про єнота, що виживає в лісовому та міському середовищі. Виключно для розважальних цілей без реальних грошей.",
+      "A free social platform about a raccoon surviving in forest and urban environments. Exclusively for entertainment purposes with no real money.",
     genre: ["Educational Game", "Simulation Game", "Adventure Game"],
     gamePlatform: "Web Browser",
     applicationCategory: "Game",
@@ -12,7 +12,7 @@ export default function StructuredData() {
     offers: {
       "@type": "Offer",
       price: "0",
-      priceCurrency: "USD",
+      priceCurrency: "CAD",
       availability: "https://schema.org/InStock",
     },
     contentRating: "18+",

@@ -30,19 +30,19 @@ export default function TermsPage() {
               immediately.
             </p>
 
-            <h2>3. Виключно для розважальних цілей</h2>
+            <h2>3. Exclusively for Entertainment Purposes</h2>
             <p>
-              "Rescue Hero in the Canadian Rockies" - це безкоштовна соціальна платформа виключно для розважальних
-              цілей. Ми чітко заявляємо, що:
+              "Rescue Hero in the Canadian Rockies" is a free social platform exclusively for entertainment purposes. We
+              clearly state that:
             </p>
             <ul>
-              <li>Це не азартна гра</li>
-              <li>Без реальних грошей</li>
-              <li>Без виграшів</li>
-              <li>Все віртуальне і не несе ніякої цінності</li>
-              <li>Повністю безкоштовно для використання</li>
-              <li>Не потрібні покупки для гри</li>
-              <li>Внутрішньоігрові очки не мають грошової цінності</li>
+              <li>This is not a gambling game</li>
+              <li>No real money</li>
+              <li>No winnings</li>
+              <li>Everything is virtual and has no value</li>
+              <li>Completely free to use</li>
+              <li>No purchases required to play</li>
+              <li>In-game points have no monetary value</li>
             </ul>
 
             <h2>4. User Accounts</h2>

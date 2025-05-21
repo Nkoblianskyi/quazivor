@@ -9,17 +9,16 @@ import DisclaimerBanner from "@/components/disclaimer-banner"
 
 const inter = Inter({ subsets: ["latin"] })
 
-// Оновити метадані сайту
+// Update site metadata
 export const metadata: Metadata = {
-  title: "Urban Raccoon - Безкоштовна Соціальна Платформа | Quazivor",
+  title: "Urban Raccoon - Free Social Platform | Quazivor",
   description:
-    "Безкоштовна соціальна платформа виключно для розважальних цілей. Без реальних грошей. Без виграшів. Все віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання. Для користувачів 18+.",
-  keywords:
-    "безкоштовна гра, соціальна платформа, єнот, виживання, освітня гра, без грошей, віртуальні очки, безкоштовно для використання",
+    "A free social platform exclusively for entertainment purposes. No real money. No winnings. Everything is virtual and has no value. Completely free to use. For users 18+.",
+  keywords: "free game, social platform, raccoon, survival, educational game, no money, virtual points, free to use",
   openGraph: {
-    title: "Urban Raccoon - Безкоштовна Соціальна Платформа | Quazivor",
+    title: "Urban Raccoon - Free Social Platform | Quazivor",
     description:
-      "Безкоштовна соціальна платформа виключно для розважальних цілей. Без реальних грошей. Без виграшів. Все віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання.",
+      "A free social platform exclusively for entertainment purposes. No real money. No winnings. Everything is virtual and has no value. Completely free to use.",
     type: "website",
     url: "https://quazivor.com",
   },
@@ -40,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en-CA" suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#b45309" />

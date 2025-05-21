@@ -17,9 +17,9 @@ export default function DisclaimerBanner() {
             <AlertTriangle className="h-4 w-4 text-brand-500 mr-2 mt-1 md:mt-0 flex-shrink-0" />
             <div>
               <p className="text-sm text-brand-700">
-                <strong>Важливе повідомлення:</strong> Це безкоштовна соціальна платформа виключно для розважальних
-                цілей. Без реальних грошей. Без виграшів. Все віртуальне і не несе ніякої цінності. Повністю безкоштовно
-                для використання. Для користувачів 18+.
+                <strong>Important Notice:</strong> This is a free social platform exclusively for entertainment
+                purposes. No real money. No winnings. Everything is virtual and has no value. Completely free to use.
+                For users 18+.
               </p>
               <p className="text-sm text-brand-700 mt-1">
                 If the fun stops, take a step back. You can also visit support resources like{" "}

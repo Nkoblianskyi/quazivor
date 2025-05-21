@@ -38,8 +38,8 @@ export default function AgeVerificationModal() {
             Age Verification Required
           </DialogTitle>
           <DialogDescription className="text-base font-medium text-gray-600">
-            Це безкоштовна соціальна платформа. Це не азартна гра. Без реальних грошей. Без виграшів. Все віртуальне і
-            не несе ніякої цінності. Повністю безкоштовно для використання.
+            This is a free social platform. This is not a gambling game. No real money. No winnings. Everything is
+            virtual and has no value. Completely free to use.
           </DialogDescription>
         </DialogHeader>
         <div className="flex flex-col space-y-6 py-6">

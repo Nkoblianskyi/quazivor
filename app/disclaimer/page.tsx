@@ -13,11 +13,11 @@ export default function DisclaimerPage() {
           </div>
 
           <div className="prose max-w-none">
-            <h2>Виключно для розважальних цілей</h2>
+            <h2>Exclusively for Entertainment Purposes</h2>
             <p>
-              "Rescue Hero in the Canadian Rockies" - це безкоштовна соціальна платформа виключно для розважальних
-              цілей. Ця гра не включає реальні гроші, не пропонує виграші, і не підтримує жодної форми ставок. Все
-              віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання.
+              "Rescue Hero in the Canadian Rockies" is a free social platform exclusively for entertainment purposes.
+              This game does not involve real money, does not offer winnings, and does not support any form of betting.
+              Everything is virtual and has no value. Completely free to use.
             </p>
 
             <h2>Age Restriction</h2>
@@ -26,16 +26,16 @@ export default function DisclaimerPage() {
               confirm that you are at least 18 years old.
             </p>
 
-            <h2>Без реальних грошей</h2>
-            <p>Ми чітко заявляємо, що:</p>
+            <h2>No Real Money</h2>
+            <p>We clearly state that:</p>
             <ul>
-              <li>Це не азартна гра</li>
-              <li>Без реальних грошей</li>
-              <li>Без виграшів</li>
-              <li>Все віртуальне і не несе ніякої цінності</li>
-              <li>Повністю безкоштовно для використання</li>
-              <li>Не потрібні покупки для гри</li>
-              <li>Внутрішньоігрові очки не мають грошової цінності</li>
+              <li>This is not a gambling game</li>
+              <li>No real money</li>
+              <li>No winnings</li>
+              <li>Everything is virtual and has no value</li>
+              <li>Completely free to use</li>
+              <li>No purchases required to play</li>
+              <li>In-game points have no monetary value</li>
             </ul>
 
             <h2>Responsible Gaming</h2>

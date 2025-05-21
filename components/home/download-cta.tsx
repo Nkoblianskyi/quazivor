@@ -219,15 +219,15 @@ export default function DownloadCta() {
           </DialogHeader>
           <div className="flex flex-col space-y-4 py-4">
             <div className="bg-amber-50 p-4 rounded-md text-sm text-amber-700">
-              <p className="font-bold mb-2">Це безкоштовна соціальна платформа:</p>
+              <p className="font-bold mb-2">This is a free social platform:</p>
               <ul className="list-disc pl-5 space-y-1">
-                <li>Це не азартна гра</li>
-                <li>Без реальних грошей</li>
-                <li>Без виграшів</li>
-                <li>Все віртуальне і не несе ніякої цінності</li>
-                <li>Повністю безкоштовно для використання</li>
-                <li>Виключно для розважальних цілей</li>
-                <li>Для користувачів 18+</li>
+                <li>This is not a gambling game</li>
+                <li>No real money</li>
+                <li>No winnings</li>
+                <li>Everything is virtual and has no value</li>
+                <li>Completely free to use</li>
+                <li>Exclusively for entertainment purposes</li>
+                <li>For users 18+</li>
               </ul>
             </div>
           </div>

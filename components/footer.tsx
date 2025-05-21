@@ -33,8 +33,8 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-brand-100/90 mb-6 leading-relaxed">
-              Безкоштовна соціальна платформа виключно для розважальних цілей. Без реальних грошей. Без виграшів. Все
-              віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання.
+              A free social platform exclusively for entertainment purposes. No real money. No winnings. Everything is
+              virtual and carries no value. Completely free to use.
             </p>
             <div className="flex items-center">
               <AlertTriangle className="h-5 w-5 text-brand-200 mr-2" />
@@ -194,8 +194,8 @@ export default function Footer() {
           <h4 className="text-center text-lg font-semibold mb-3 text-brand-200">Disclaimer</h4>
           <div className="text-brand-200/80 text-sm leading-relaxed">
             <p className="mb-2">
-              Ця гра є безкоштовною соціальною платформою виключно для розважальних цілей. Без реальних грошей. Без
-              виграшів. Все віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання.
+              This game is a free social platform exclusively for entertainment purposes. No real money. No winnings.
+              Everything is virtual and carries no value. Completely free to use.
             </p>
             <p className="mb-2">
               For adult players, this is a safe and entertaining experience that carries no financial risk. Please keep
@@ -212,8 +212,8 @@ export default function Footer() {
         <div className="text-center text-brand-200/80 text-sm">
           <p>&copy; {new Date().getFullYear()} Quazivor Inc. All rights reserved.</p>
           <p className="mt-2">
-            Це безкоштовна соціальна платформа виключно для розважальних цілей. Без реальних грошей. Без виграшів. Все
-            віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання.
+            This is a free social platform exclusively for entertainment purposes. No real money. No winnings.
+            Everything is virtual and carries no value. Completely free to use.
           </p>
         </div>
       </div>

@@ -51,8 +51,8 @@ export default function Leaderboard() {
         </TableBody>
       </Table>
       <div className="bg-amber-50 p-3 text-center text-sm text-amber-700">
-        Рейтинг для розваги - Виключно для розважальних цілей. Без реальних грошей. Без виграшів. Все віртуальне і не
-        несе ніякої цінності.
+        Rankings for entertainment only - Exclusively for entertainment purposes. No real money. No winnings. Everything
+        is virtual and has no value.
       </div>
     </div>
   )
