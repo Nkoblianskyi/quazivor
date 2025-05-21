@@ -151,24 +151,6 @@ export default function ContactPage() {
                     </div>
                   </div>
 
-                  <div className="mt-8 pt-6 border-t border-gray-200">
-                    <h3 className="font-semibold mb-3">Business Hours</h3>
-                    <ul className="space-y-1 text-gray-700">
-                      <li className="flex justify-between">
-                        <span>Monday - Friday:</span>
-                        <span>9:00 AM - 5:00 PM EST</span>
-                      </li>
-                      <li className="flex justify-between">
-                        <span>Saturday:</span>
-                        <span>10:00 AM - 2:00 PM EST</span>
-                      </li>
-                      <li className="flex justify-between">
-                        <span>Sunday:</span>
-                        <span>Closed</span>
-                      </li>
-                    </ul>
-                  </div>
-
                   {/* Trust Signals Section */}
                   <div className="mt-8 pt-6 border-t border-gray-200">
                     <div className="flex items-center mb-3">
