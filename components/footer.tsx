@@ -1,6 +1,6 @@
 import Link from "next/link"
-import { AlertTriangle } from "lucide-react"
 import Image from "next/image"
+import { AlertTriangle, ExternalLink } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -33,8 +33,8 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-brand-100/90 mb-6 leading-relaxed">
-              A social game for entertainment purposes only. Guide your raccoon through forest and city environments. No
-              real money. No prizes.
+              Безкоштовна соціальна платформа виключно для розважальних цілей. Без реальних грошей. Без виграшів. Все
+              віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання.
             </p>
             <div className="flex items-center">
               <AlertTriangle className="h-5 w-5 text-brand-200 mr-2" />
@@ -126,15 +126,14 @@ export default function Footer() {
         </div>
 
         {/* Responsible Gaming Section */}
-
-        <div className="border-t border-gray-200 pt-6">
-          <h3 className="font-bold mb-4 text-center">Responsible Gaming Resources</h3>
-          <div className="grid sm:grid-cols-3 gap-4">
+        <div className="border-t border-brand-500/50 pt-8 mb-8">
+          <h4 className="text-center text-lg font-semibold mb-6 text-brand-200">Responsible Gaming Resources</h4>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Link
               href="https://www.gambleaware.org/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-4 bg-amber-50 rounded-lg hover:bg-amber-100 transition-colors flex flex-col items-center"
+              className="p-4 bg-brand-700/50 rounded-lg hover:bg-brand-700/70 transition-colors flex flex-col items-center"
             >
               <div className="relative w-32 h-12 mb-2">
                 <Image
@@ -144,13 +143,16 @@ export default function Footer() {
                   className="object-contain"
                 />
               </div>
-              <p className="text-sm text-gray-600">Information and support</p>
+              <div className="flex items-center text-sm text-brand-200">
+                <span>Information and support</span>
+                <ExternalLink className="h-3 w-3 ml-1" />
+              </div>
             </Link>
             <Link
               href="https://www.gamcare.org.uk/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-4 bg-amber-50 rounded-lg hover:bg-amber-100 transition-colors flex flex-col items-center"
+              className="p-4 bg-brand-700/50 rounded-lg hover:bg-brand-700/70 transition-colors flex flex-col items-center"
             >
               <div className="relative w-32 h-12 mb-2">
                 <Image
@@ -160,13 +162,16 @@ export default function Footer() {
                   className="object-contain"
                 />
               </div>
-              <p className="text-sm text-gray-600">Support and counseling</p>
+              <div className="flex items-center text-sm text-brand-200">
+                <span>Support and counseling</span>
+                <ExternalLink className="h-3 w-3 ml-1" />
+              </div>
             </Link>
             <Link
               href="https://www.gordonmoody.org.uk/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-4 bg-amber-50 rounded-lg hover:bg-amber-100 transition-colors flex flex-col items-center"
+              className="p-4 bg-brand-700/50 rounded-lg hover:bg-brand-700/70 transition-colors flex flex-col items-center"
             >
               <div className="relative w-32 h-12 mb-2">
                 <Image
@@ -176,7 +181,10 @@ export default function Footer() {
                   className="object-contain"
                 />
               </div>
-              <p className="text-sm text-gray-600">Therapy for gambling addiction</p>
+              <div className="flex items-center text-sm text-brand-200">
+                <span>Therapy for gambling addiction</span>
+                <ExternalLink className="h-3 w-3 ml-1" />
+              </div>
             </Link>
           </div>
         </div>
@@ -186,8 +194,8 @@ export default function Footer() {
           <h4 className="text-center text-lg font-semibold mb-3 text-brand-200">Disclaimer</h4>
           <div className="text-brand-200/80 text-sm leading-relaxed">
             <p className="mb-2">
-              This game is strictly intended for players aged 18 and over. While it involves no real money, access by
-              minors is not permitted.
+              Ця гра є безкоштовною соціальною платформою виключно для розважальних цілей. Без реальних грошей. Без
+              виграшів. Все віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання.
             </p>
             <p className="mb-2">
               For adult players, this is a safe and entertaining experience that carries no financial risk. Please keep
@@ -203,7 +211,10 @@ export default function Footer() {
         {/* Copyright */}
         <div className="text-center text-brand-200/80 text-sm">
           <p>&copy; {new Date().getFullYear()} Quazivor Inc. All rights reserved.</p>
-          <p className="mt-2">This is a social game for entertainment purposes only. No real money gambling.</p>
+          <p className="mt-2">
+            Це безкоштовна соціальна платформа виключно для розважальних цілей. Без реальних грошей. Без виграшів. Все
+            віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання.
+          </p>
         </div>
       </div>
     </footer>

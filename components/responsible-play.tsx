@@ -14,8 +14,8 @@ export default function ResponsiblePlay() {
 
           <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 mb-8">
             <p className="text-lg font-bold text-center mb-4">
-              This is not a casino. This game does not involve real money gambling, does not offer cash prizes, and does
-              not support any form of betting or wagering.
+              Це не азартна гра. Ця гра не включає реальні гроші, не пропонує виграші, і не підтримує жодної форми
+              ставок. Все віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання.
             </p>
             <p className="text-center mb-6">
               Intended for audiences 18+. This is a social game made for entertainment only.

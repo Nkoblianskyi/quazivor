@@ -13,11 +13,11 @@ export default function DisclaimerPage() {
           </div>
 
           <div className="prose max-w-none">
-            <h2>Entertainment Purposes Only</h2>
+            <h2>Виключно для розважальних цілей</h2>
             <p>
-              "Rescue Hero in the Canadian Rockies" is a social game designed for entertainment purposes only. This game
-              does not involve real money gambling, does not offer cash prizes, and does not support any form of betting
-              or wagering.
+              "Rescue Hero in the Canadian Rockies" - це безкоштовна соціальна платформа виключно для розважальних
+              цілей. Ця гра не включає реальні гроші, не пропонує виграші, і не підтримує жодної форми ставок. Все
+              віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання.
             </p>
 
             <h2>Age Restriction</h2>
@@ -26,14 +26,16 @@ export default function DisclaimerPage() {
               confirm that you are at least 18 years old.
             </p>
 
-            <h2>No Real Money Gambling</h2>
-            <p>We explicitly state that:</p>
+            <h2>Без реальних грошей</h2>
+            <p>Ми чітко заявляємо, що:</p>
             <ul>
-              <li>This is not a casino</li>
-              <li>No real money can be won or lost</li>
-              <li>No prizes are offered</li>
-              <li>No purchases are necessary to play</li>
-              <li>In-game points have no monetary value</li>
+              <li>Це не азартна гра</li>
+              <li>Без реальних грошей</li>
+              <li>Без виграшів</li>
+              <li>Все віртуальне і не несе ніякої цінності</li>
+              <li>Повністю безкоштовно для використання</li>
+              <li>Не потрібні покупки для гри</li>
+              <li>Внутрішньоігрові очки не мають грошової цінності</li>
             </ul>
 
             <h2>Responsible Gaming</h2>

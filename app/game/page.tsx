@@ -661,11 +661,10 @@ export default function GamePage() {
                   </div>
                 </div>
 
-                <div className="text-center mb-4">
-                  <p className="text-sm text-gray-500 mb-2">
-                    For educational entertainment purposes only. No real money. No prizes. Ages 18+.
-                  </p>
-                </div>
+                <p className="text-sm text-gray-500 mb-2">
+                  Виключно для розважальних цілей. Без реальних грошей. Без виграшів. Все віртуальне і не несе ніякої
+                  цінності. Повністю безкоштовно для використання. Для користувачів 18+.
+                </p>
 
                 <div className="flex justify-between items-center mb-6">
                   <div className="bg-brand-600 text-white px-4 py-2 rounded-lg">

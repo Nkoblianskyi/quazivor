@@ -5,9 +5,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   {
-    question: "Is Urban Raccoon a gambling game?",
+    question: "Чи є Urban Raccoon азартною грою?",
     answer:
-      "No, Urban Raccoon is absolutely not a gambling game. It's a free social game for entertainment and educational purposes only. There is no real money involved, no betting, and no prizes with monetary value.",
+      "Ні, Urban Raccoon абсолютно не є азартною грою. Це безкоштовна соціальна платформа виключно для розважальних та освітніх цілей. Без реальних грошей. Без виграшів. Все віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання.",
   },
   {
     question: "Why is there age verification?",

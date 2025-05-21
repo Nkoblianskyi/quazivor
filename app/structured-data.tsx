@@ -1,10 +1,10 @@
 export default function StructuredData() {
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "VideoGame",
+    "@type": "SoftwareApplication",
     name: "Urban Raccoon Survival",
     description:
-      "An educational social game about a raccoon surviving in forest and city environments. For entertainment purposes only with no real money gambling.",
+      "Безкоштовна соціальна платформа про єнота, що виживає в лісовому та міському середовищі. Виключно для розважальних цілей без реальних грошей.",
     genre: ["Educational Game", "Simulation Game", "Adventure Game"],
     gamePlatform: "Web Browser",
     applicationCategory: "Game",

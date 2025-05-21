@@ -22,14 +22,14 @@ const screenshots = [
     title: "Forest Foraging",
     description:
       "Explore the lush forest environment to find berries, nuts, and other natural food sources. Watch out for predators!",
-    images: ["/screenshots/forest-1.png", "/screenshots/forest-2.png", "/5c4c60a593bda3140871208b8c4ca443.jpg"],
+    images: ["/screenshots/forest-1.png", "/screenshots/forest-2.png", "/screenshots/forest-3.png"],
   },
   {
     id: "city",
     title: "Urban Scavenging",
     description:
       "Navigate through city streets, parks, and alleys to find discarded food and treasures. Avoid humans and traffic!",
-    images: ["/5c4c60a593bda3140871208b8c4ca443.jpg", "/47674c6f23f94766c847427228795fda.jpg", "/f49f4cde66c366b6c517b40ba9eba581.jpg"],
+    images: ["/screenshots/city-1.png", "/screenshots/city-2.png", "/screenshots/city-3.png"],
   },
   {
     id: "night",
@@ -123,6 +123,7 @@ export default function GameplayPreview() {
                           "/placeholder.svg" ||
                           "/placeholder.svg" ||
                           "/placeholder.svg" ||
+                          "/placeholder.svg" ||
                           "/placeholder.svg"
                         }
                         alt={`${tab.title} screenshot ${currentImageIndex + 1}`}
@@ -190,8 +191,9 @@ export default function GameplayPreview() {
                             {tab.images.map((_, idx) => (
                               <div
                                 key={idx}
-                                className={`w-2 h-2 rounded-full ${idx === currentImageIndex ? "bg-white" : "bg-white/50"
-                                  }`}
+                                className={`w-2 h-2 rounded-full ${
+                                  idx === currentImageIndex ? "bg-white" : "bg-white/50"
+                                }`}
                               />
                             ))}
                           </div>
@@ -253,13 +255,15 @@ export default function GameplayPreview() {
           </DialogHeader>
           <div className="flex flex-col space-y-4 py-4">
             <div className="bg-brand-50 p-4 rounded-md text-sm text-brand-700">
-              <p className="font-bold mb-2">This is a free educational simulation:</p>
+              <p className="font-bold mb-2">Це безкоштовна соціальна платформа:</p>
               <ul className="list-disc pl-5 space-y-1">
-                <li>This is not a monetary game</li>
-                <li>No actual currency is involved</li>
-                <li>No rewards with value are offered</li>
-                <li>For educational entertainment only</li>
-                <li>Intended for users 18+</li>
+                <li>Це не азартна гра</li>
+                <li>Без реальних грошей</li>
+                <li>Без виграшів</li>
+                <li>Все віртуальне і не несе ніякої цінності</li>
+                <li>Повністю безкоштовно для використання</li>
+                <li>Виключно для розважальних цілей</li>
+                <li>Для користувачів 18+</li>
               </ul>
             </div>
           </div>

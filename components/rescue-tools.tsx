@@ -194,16 +194,19 @@ export default function RescueTools() {
           </DialogHeader>
           <div className="flex flex-col space-y-4 py-4">
             <div className="bg-red-50 p-4 rounded-md text-sm text-red-700">
-              <p className="font-bold mb-2">This is a free social game:</p>
+              <p className="font-bold mb-2">Це безкоштовна соціальна платформа:</p>
               <ul className="list-disc pl-5 space-y-1">
-                <li>It is not a casino</li>
-                <li>No real money can be won or lost</li>
-                <li>No prizes are offered</li>
-                <li>For entertainment purposes only</li>
-                <li>Intended for users 18+</li>
+                <li>Це не азартна гра</li>
+                <li>Без реальних грошей</li>
+                <li>Без виграшів</li>
+                <li>Все віртуальне і не несе ніякої цінності</li>
+                <li>Повністю безкоштовно для використання</li>
+                <li>Виключно для розважальних цілей</li>
+                <li>Для користувачів 18+</li>
               </ul>
               <p className="mt-3">
-                If you ever feel your gaming habits are becoming concerning, please contact support resources like{" "}
+                Якщо ви коли-небудь відчуєте, що ваші ігрові звички стають проблемними, будь ласка, зверніться до
+                ресурсів підтримки, таких як{" "}
                 <a
                   href="https://www.gambleaware.org/"
                   target="_blank"

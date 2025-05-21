@@ -1,24 +1,25 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Karla } from "next/font/google"
+import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import SiteHeader from "@/components/site-header"
 import Footer from "@/components/footer"
 import DisclaimerBanner from "@/components/disclaimer-banner"
 
-const inter = Karla({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] })
 
+// Оновити метадані сайту
 export const metadata: Metadata = {
-  title: "Urban Raccoon - Educational Survival Game | Quazivor",
+  title: "Urban Raccoon - Безкоштовна Соціальна Платформа | Quazivor",
   description:
-    "A free educational social game for entertainment purposes only. Guide your raccoon through forest and city environments. No real money, no gambling, no prizes, ages 18+.",
+    "Безкоштовна соціальна платформа виключно для розважальних цілей. Без реальних грошей. Без виграшів. Все віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання. Для користувачів 18+.",
   keywords:
-    "educational game, raccoon survival, social game, free game, no gambling, forest survival, city survival, adventure game, simulation, learning",
+    "безкоштовна гра, соціальна платформа, єнот, виживання, освітня гра, без грошей, віртуальні очки, безкоштовно для використання",
   openGraph: {
-    title: "Urban Raccoon - Educational Survival Game | Quazivor",
+    title: "Urban Raccoon - Безкоштовна Соціальна Платформа | Quazivor",
     description:
-      "A free educational social game for entertainment purposes only. Guide your raccoon through forest and city environments. No real money, no gambling, no prizes.",
+      "Безкоштовна соціальна платформа виключно для розважальних цілей. Без реальних грошей. Без виграшів. Все віртуальне і не несе ніякої цінності. Повністю безкоштовно для використання.",
     type: "website",
     url: "https://quazivor.com",
   },
@@ -30,6 +31,7 @@ export const metadata: Metadata = {
     "format-detection": "telephone=no",
     "google-adsense-account": "ca-pub-REPLACE_WITH_YOUR_ADSENSE_ID",
   },
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
