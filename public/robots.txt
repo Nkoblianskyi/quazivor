@@ -1,0 +1,19 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Explicitly disallow gambling-related crawlers
+User-agent: GamblingBot
+Disallow: /
+
+# Explicitly tell Google this is not a gambling site
+# This is a comment for humans, not for bots, but helps with documentation
+# This is an educational entertainment site with no real money gambling
+
+# Sitemap
+Sitemap: https://zentriqa.com/sitemap.xml
+
+# Disallow any temporary or test pages
+Disallow: /test/
+Disallow: /temp/
+Disallow: /dev/
