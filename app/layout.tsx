@@ -30,7 +30,6 @@ export const metadata: Metadata = {
     "format-detection": "telephone=no",
     "google-adsense-account": "ca-pub-REPLACE_WITH_YOUR_ADSENSE_ID",
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
